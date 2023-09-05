@@ -127,7 +127,7 @@ the pitch.
 {% include lc/intro.html %}
 {% elsif info.carpentry == "ds" %}
 {% include ds/intro.md %}
-{% remote_include {{lesson_meta}}/description.md %}
+{% remote_include {{lesson_meta}}/description-no-option.md %}
 {% endif %}
 
 {% comment %}
